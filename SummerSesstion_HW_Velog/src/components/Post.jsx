@@ -90,7 +90,7 @@ const Post = () => {
   return (
     <>
       {data.map((post, index) => (
-        <Link to="/detail" key={index}>
+        <Link to="/detail" state={{}} key={index}>
           <Box>
             <img src={post.mainImg}/>
             <PostBody>

@@ -103,3 +103,15 @@ export const FooterDescRights = styled.h2`
   font-size: 14px;
   text-align: center;
 `;
+
+// nav search input
+export const NavInput = styled.input`
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: rgba(0, 0, 0, 0.637);
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  border: none;
+`;

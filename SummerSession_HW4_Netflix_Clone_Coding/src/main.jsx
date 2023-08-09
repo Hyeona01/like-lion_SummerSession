@@ -4,8 +4,8 @@ import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
 import "./index.css"
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename='/'>
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <BrowserRouter basename="like-lion_SummerSession">
     <App />
   </BrowserRouter>
-)
+);
